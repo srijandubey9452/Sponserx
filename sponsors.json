@@ -1,0 +1,22 @@
+[
+    { "name": "Brand X", "niche": ["Beauty", "Lifestyle"], "reachBracket": "5000-10000", "img": "brandx.jpg"},
+    { "name": "SkillShare", "niche": ["Tech", "Gadgets"], "reachBracket": "10000-20000", "img": "techinnovator.jpg" },
+    { "name": "SurfShark", "niche": ["Tech", "Gadgets"], "reachBracket": "10000-20000", "img": "techinnovator.jpg" },
+    { "name": "NordVPN", "niche": ["Tech", "Gadgets"], "reachBracket": "10000-20000", "img": "techinnovator.jpg" },
+    { "name": "Lenskart", "niche": ["Tech", "Gadgets"], "reachBracket": "10000-20000", "img": "techinnovator.jpg" },
+    { "name": "Welcore", "niche": ["Tech", "Gadgets"], "reachBracket": "10000-20000", "img": "techinnovator.jpg" },
+    { "name": "Wow", "niche": ["Tech", "Gadgets"], "reachBracket": "10000-20000", "img": "techinnovator.jpg" },
+    { "name": "Sugar", "niche": ["Tech", "Gadgets"], "reachBracket": "10000-20000", "img": "techinnovator.jpg" },
+    { "name": "Boat", "niche": ["Tech", "Gadgets"], "reachBracket": "10000-20000", "img": "techinnovator.jpg" },
+    { "name": "Noise", "niche": ["Tech", "Gadgets"], "reachBracket": "10000-20000", "img": "techinnovator.jpg" },
+    { "name": "Swiggy", "niche": ["Tech", "Gadgets"], "reachBracket": "10000-20000", "img": "techinnovator.jpg" },
+    { "name": "Geek for Geeks", "niche": ["Tech","Education"], "reachBracket": "0-5000", "img": "gfg3-300x300.png", "website": "https://www.geeksforgeeks.org/about/?ref=footer"},
+    { "name": "PepCoding", "niche": ["Tech","Education"], "reachBracket": "0-5000", "img": "WhatsApp Image 2024-04-12 at 10.23.58_7f49ff33.jpg"},
+    { "name": "Zomato", "niche": ["Food", "Lifestyle"], "reachBracket": "0-5000", "img": "Zomato_logo.png","website": "https://www.zomato.com/who-we-are"},
+    { "name": "Cred", "niche": ["Beauty", "Lifestyle"], "reachBracket": "0-5000", "img": "WhatsApp Image 2024-04-12 at 10.23.47_af108c2f.jpg"},
+    { "name": "Unacademy", "niche": ["Beauty", "Lifestyle"], "reachBracket": "0-5000", "img": "WhatsApp Image 2024-04-12 at 10.23.51_9210f7af.jpg"},
+    { "name": "MamaEarth", "niche": ["Beauty", "Lifestyle"], "reachBracket": "0-5000", "img": "WhatsApp Image 2024-04-12 at 10.23.54_256eed30.jpg"},
+    { "name": "Netflix", "niche": ["Beauty", "Lifestyle"], "reachBracket": "0-5000", "img": "WhatsApp Image 2024-04-12 at 10.23.43_e6204ddb.jpg"},
+    { "name": "MuscleBlaze", "niche": ["Fitness", "Lifestyle"], "reachBracket": "0-5000", "img": "npjn65sqqnrw4117kp28io.jpg"}
+    
+]

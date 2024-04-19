@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Creator/Sponsor Profile</title>
+    <link rel="stylesheet" href="./creatorprof.css">  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+</head>
+<body>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4"></span>
+        </a>
+    
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        </ul>
+      </header>
+    
+    <div class="container">
+        <h2>Create Your Profile</h2>
+        <div id="creator-form" class="row">
+            <form id="contentCreatorForm">
+                <div class="col-md-6">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="type">Profile Type:</label>
+                    <select id="type" name="type" class="form-select" required>
+                        <option value="contentCreator">Content Creator</option>
+                        <option value="sponsor">Sponsor</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="socialHandles">Social Media Handles:</label>
+                    <input type="text" id="socialHandles" name="socialHandles" class="form-control">
+                </div>
+                <div class="col-md-6">
+                    <label for="niche">Genre/Niche:</label>
+                    <select id="niche" name="niche" class="form-select" required>
+                        <option value="">Select Niche</option>
+                        <option value="Gaming">Gaming</option>
+                        <option value="Beauty">Beauty</option>
+                        <option value="Lifestyle">Lifestyle</option>
+                        <option value="Tech">Tech</option>
+                        <option value="Fin-Tech">Fin-Tech</option>
+                        <option value="Sports">Sports</option>
+                        <option value="Science">Science</option>
+                        <option value="Politics">Politics</option>
+                        <option value="Business">Business</option>
+                        <option value="Entertainment">Entertainment</option>
+                        <option value="Spiritual">Spiritual</option>
+                        <option value="Education">Education</option>
+                        <option value="Movies">Movies</option>
+                        <option value="Fitness">Fitness</option>
+
+
+                        </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="mobile">Mobile:</label>
+                    <input type="tel" id="mobile" name="mobile" class="form-control" required> 
+                </div>
+                <div class="col-md-6">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required> 
+                </div>
+                <div class="col-md-6">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" class="form-control" required> 
+                </div>
+                
+                <div class="col-12 mt-3">
+                    <button type="submit" class="btn btn-primary">Create Profile</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+   
+   
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="./creatorprof.js"></script>  </body>
+</html>
+
+
+
+ 
+ 

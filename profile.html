@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link rel="stylesheet" href="./profile.css"> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+</head>
+<body>
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      <span class="fs-4"></span>
+    </a>
+
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+    </ul>
+  </header>
+  <div class="container mt-5"> 
+    <h2 align="center">Profile</h2>
+
+    <div class="row mt-4">
+      <div align = "center" class="col-mt-5">
+        <img id="profilePhoto" src="placeholder.jpg" alt="Profile Photo" class="img-thumbnail"> 
+        <button id="changePhotoBtn" class="btn btn-primary mb-3">Change Photo</button>
+        <input type="file" id="profilePhotoInput" accept="image/*" style="display: none;"> 
+      </div>
+      
+        <div class="col-md-8">
+            <div class="card bg-light"> 
+            </div>
+          </div>
+          
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Profile Details</h4>
+            <p class="card-text"><strong>Name:</strong> <span id="profileName"></span></p>
+            <p class="card-text"><strong>Type:</strong> <span id="profileType"></span></p>
+            <p class="card-text"><strong>Social Handles:</strong> <span id="profileSocial"></span></p>
+            <p class="card-text"><strong>Niche:</strong> <span id="profileNiche"></span></p>
+            <p class="card-text"><strong>Mobile:</strong> <span id="profileMobile"></span></p>
+            <p class="card-text"><strong>Email:</strong> <span id="profileEmail"></span></p>
+            <p class="card-text"><strong>Date of Birth:</strong> <span id="profileDOB"></span></p> 
+
+            </div>
+            <div class="text-end mt-3">
+             <a href="./index.html" <button type="button" class="btn btn-primary">Let's Analyze</button> </a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <script src="./profile.js"></script> </body> </html>

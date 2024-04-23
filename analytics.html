@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Analytics Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/css/style2.css">
+</head>
+<body>
+
+
+  <header class="navbar navbar-expand-lg">
+    
+      <a class="navbar-brand mx-auto" href="index.html">
+         <span class="text-primary flex-shrink-0 me-2">
+         </span>SponsorX</a>
+  
+      <div class="d-flex"> 
+        <div class="form-check form-switch mode-switch me-3 me-lg-4 ms-auto" data-bs-toggle="mode"> </div> 
+        <button class="navbar-toggler ms-sm-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+  
+     <nav class="collapse navbar-collapse" id="navbarNav">
+       <ul class="navbar-nav ms-auto" style="--ar-scroll-height: 520px;"> <li class="nav-item ">
+        <a class="nav-link" href="https://mediafiles.botpress.cloud/9b45f594-f4ff-4a0f-b588-3efcbf4da9c6/webchat/bot.html">Bot</a></li>
+         <li class="nav-item"><a class="nav-link" href="./profile.html">Profile</a></li>
+         <li class="nav-item"><a class="nav-link" href="./analytics.html">Analytics</a></li>
+         <li class="nav-item"><a class="nav-link" href="./new_sponsor_page.html">Find Sponsors</a></li>
+         <li class="nav-item"><a class="nav-link" href="./about.html">About Us</a></li>
+       </ul>
+      </nav>
+    </div>
+  </header>
+  
+
+  <div class="container"> 
+
+    <section id="intro" class="jumbotron text-center mb-5">
+      <h1 class="display-4">Instagram Analytics</h1> 
+      <p class="lead">Learn how to leverage your Instagram data for insights and growth.</p>
+      <input type="file" id="csvFileInput" accept=".csv"> 
+      <div class="loader" id="loader" style="display:none;">Loading...</div> 
+    </section> 
+
+    <section id="processing" class="mb-5"> 
+      <h2 class="text-center mb-4">Data Processing and Visualization</h2>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Organize</h5>
+              <p class="card-text">Transform raw data into visual insights.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Visual Representation</h5>
+              <p class="card-text">Turn numbers into impactful visuals.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Trends Identification</h5>
+              <p class="card-text">Spot patterns and trends at a glance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="graphs-statistics" class="mb-5">
+      <h2 class="text-center mb-4">Graphs and Statistics</h2>
+          <div id="charts-container">
+      <div class="chart-box">
+     
+
+    <div class="loader" id="loader">Loading...</div> 
+
+    <div id="charts-container">
+      <div class="chart-box">
+        <h2>Engagement Over Time</h2>
+        <canvas id="engagementChart"></canvas> 
+      </div>
+      <div class="chart-box">
+        <h2>Reach vs. Impressions</h2>
+        <canvas id="reachImpressionsChart"></canvas>
+      </div>
+      <div class="chart-box">
+        <h2>Post Type Distribution</h2>
+        <canvas id="postTypeChart"></canvas>
+      </div>
+      
+    </div>
+    <button id="findSponsorsBtn">Let's Find Sponsors</button>
+  </div>
+
+  </div>
+  </section>
+  </div>
+  </body>
+<br><br>
+
+
+  <footer class="footer ">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 text-white">
+                <h5>Contact Us</h5>
+                <ul class="list-unstyled">
+                    <li>Bennett University</li>
+                    <li>Greater Noida, Uttar Pradesh</li>
+                    <li>Phone: 7388109688</li>
+                    <li>Email: Fitnessgenie.official@gmail.com</li>
+                </ul>
+            </div>
+            <div class="col-md-4 text-white">
+                <h5>Connect With Us</h5>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" class="text-white">Facebook</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Instagram</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Twitter</a></li>
+                    <!-- Add more social media links here -->
+                </ul>
+            </div>
+            <div class="col-md-4">
+              <h5 class="text-white">Subscribe to Our Newsletter</h5>
+              <div class="input-group mb-0">
+                  <input type="email" class="form-control rounded-3" id="newsletterEmail" placeholder="Enter your email" aria-label="Enter your email" aria-describedby="button-addon2">
+              </div>
+              <div class="text-center">
+                  <button class="btn btn-primary" type="button" id="newsletterButton">Subscribe</button>
+              </div>
+              <p id="newsletterMessage" class="text-white mt-2"></p>
+          </div>
+            
+  </footer>
+  
+  
+ 
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/papaparse"></script> 
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,16 +1,18 @@
 body {
-  background: linear-gradient(to bottom right, #c2e5f7, #e3f2fd);  /* Light Bluish Gradient */
+  
   min-height: 100vh; /* Ensure it covers the entire viewport height */
   display: flex; /* Enable flexbox for centering */
   flex-direction: column; /* Arrange items vertically */
   align-items: center; /* Center horizontally */
   justify-content: center; /* Center vertically */
   font-family: sans-serif;
+
+
 }
 
 .img-thumbnail {
-  max-width: 300px; /* Adjust size as needed */
-  max-height: 300px;
+  max-width: 200px; /* Adjust size as needed */
+  max-height: 200px;
   border-radius: 50%; /* Creates a circular image */
   margin-bottom: 20px; 
 }
@@ -20,9 +22,10 @@ h2 {
 }
 
 .card {
-  max-width: 500px; /* Adjust width as needed */
-  margin: 0 auto;  /* Center the card */ 
-  text-align: center; /* Center the text within the card */
+  max-width: 500px ; /* Adjust width as needed */
+  margin: 0 auto !important;  /* Center the card */ 
+  text-align: center;
+   /* Center the text within the card */
 }
 .text-end {
   position: relative; /* Enable relative positioning */

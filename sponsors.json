@@ -12,7 +12,7 @@
     { "name": "Swiggy", "niche": ["Tech", "Gadgets"], "reachBracket": "10000-20000", "img": "techinnovator.jpg" },
     { "name": "Geek for Geeks", "niche": ["Tech","Education"], "reachBracket": "0-5000", "img": "gfg3-300x300.png", "website": "https://www.geeksforgeeks.org/about/?ref=footer"},
     { "name": "PepCoding", "niche": ["Tech","Education"], "reachBracket": "0-5000", "img": "WhatsApp Image 2024-04-12 at 10.23.58_7f49ff33.jpg"},
-    { "name": "Zomato", "niche": ["Food", "Lifestyle"], "reachBracket": "0-5000", "img": "Zomato_logo.png","website": "https://www.zomato.com/who-we-are"},
+    { "name": "Zomato", "niche": ["Food", "Lifestyle"], "reachBracket": "0-5000", "img": "Zomato_logo.png","website": "https://www.zomato.com/who-we-are","chat": "chat/chat.html"},
     { "name": "Cred", "niche": ["Beauty", "Lifestyle"], "reachBracket": "0-5000", "img": "WhatsApp Image 2024-04-12 at 10.23.47_af108c2f.jpg"},
     { "name": "Unacademy", "niche": ["Beauty", "Lifestyle"], "reachBracket": "0-5000", "img": "WhatsApp Image 2024-04-12 at 10.23.51_9210f7af.jpg"},
     { "name": "MamaEarth", "niche": ["Beauty", "Lifestyle"], "reachBracket": "0-5000", "img": "WhatsApp Image 2024-04-12 at 10.23.54_256eed30.jpg"},

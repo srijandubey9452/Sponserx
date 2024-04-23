@@ -34,3 +34,6 @@ body {
   justify-content: center; /* Horizontally center cards */
   
 }
+.filters{
+  width: 150px;
+}

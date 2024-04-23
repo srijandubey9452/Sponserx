@@ -32,7 +32,8 @@ fetch('./sponsors.json')
           <p class="card-text">Niche: ${sponsor.niche.join(', ')}</p>
           <a href="${sponsor.website}" class="btn btn-primary">View Profile</a>
           <button class="btn btn-success">Apply</button>
-          <button class="btn btn-info">Chat</button>
+          <a href="${sponsor.chat}" class="btn btn-primary">Chat</a>
+          
       </div> 
   `;
   const applyButton = card.querySelector('.btn-success'); 

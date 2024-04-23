@@ -5,16 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SponsorX</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style3.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<style>/* CSS styles for the transparent button */
+    .join-now-btn {
+        position: absolute;
+        bottom: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: transparent;
+        border: 2px solid #fff; /* Border color */
+        color: #fff; /* Text color */
+        padding: 10px 20px;
+        font-size: 18px;
+        text-decoration: none;
+        border-radius: 30px; /* Rounded corners */
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .join-now-btn:hover {
+        background-color: rgba(255, 255, 255, 0.3); /* Transparent white background on hover */
+        color: #000; /* Text color on hover */
+    }
+    </style>
 </head>
 <body>
   <header class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand mx-auto" href="index.html">
+      <a class="navbar-brand mx-auto" href="./index.html">
          <span class="text-primary flex-shrink-0 me-2">
          </span>SponsorX</a>
   
@@ -28,16 +49,14 @@
      <nav class="collapse navbar-collapse" id="navbarNav">
        <ul class="navbar-nav ms-auto" style="--ar-scroll-height: 520px;"> <li class="nav-item ">
         <a class="nav-link" href="https://mediafiles.botpress.cloud/9b45f594-f4ff-4a0f-b588-3efcbf4da9c6/webchat/bot.html">Bot</a></li>
-         <li class="nav-item"><a class="nav-link" href="./creatorprof.html">Profile</a></li>
-         <li class="nav-item"><a class="nav-link" href="./analytics.html">Analytics</a></li>
-         <li class="nav-item"><a class="nav-link" href="./new_sponsor_page.html">Find Sponosors</a></li>
-         <li class="nav-item"><a class="nav-link" href="./about.html">About Us</a></li>
+         <li class="nav-item"><a class="nav-link" href="calorie.html">Prices</a></li>
+         <li class="nav-item"><a class="nav-link" href="exercise.html">Profile</a></li>
+         <li class="nav-item"><a class="nav-link" href="exercise.html">About Us</a></li>
+
        </ul>
       </nav>
     </div>
   </header>
-
-
 
 
 
@@ -49,6 +68,11 @@
   </video>
   <div class="banner-text merriweather-bold">
     SponsorX
+
+</div>
+<!-- Transparent join now button -->
+<a href="/firebase auth/register.html" class="join-now-btn">Join Now</a>
+</div>
   </div>
 </div>
 
@@ -65,8 +89,9 @@
                           <h5 class="card-title">Instagram Analytics</h5>
                           <p class="card-text"><h2>Your Analytics is just one click away.</h2>
                             Just upload your csv.
-                            And see the magic.</p>
-                          <a href="./analytics.html" class="btn btn-primary">Explore</a>
+                            And see the magic.
+                            </p>
+                          <a href="/firebase auth/register.html" class="btn btn-primary">Explore</a>
                       </div>
                   </div>
               </div>
@@ -80,8 +105,9 @@
                       <div class="card-body">
                           <h5 class="card-title">AI Chatbot</h5>
                           <p class="card-text"><h2>Ask your doubt.</h2>
-                            Let our expert answer your questions regarding content.</p>
-                          <a href="./.html" class="btn btn-primary">Explore</a>
+                            Let our expert answer your questions regarding content.
+                            </p>
+                          <a href="./calorie.html" class="btn btn-primary">Explore</a>
                       </div>
                   </div>
                   <div class="col-md-6">
@@ -102,7 +128,7 @@
                           <h5 class="card-title">Find Sponsors</h5>
                           <p class="card-text"><h2>Earn money by getting Sponsors</h2>
                             Use our algorithm to find best suited sponosor for you.</p>
-                          <a href="./new_sponsor_page.html" class="btn btn-primary">Explore</a>
+                          <a href="/firebase auth/register.html" class="btn btn-primary">Explore</a>
                       </div>
                   </div>
               </div>
@@ -110,6 +136,10 @@
       </div>
 
       
+
+
+      
+
 
 <div class="container-fluid">
   <div class="row">
@@ -120,6 +150,7 @@
         <ul class="features">
           <li>Get your 1st sponsor free.</li>
           <li>Analysis of your instagram profile.</li>
+          
         </ul>
         <button class="btn btn-primary">Choose Plan</button>
       </div>
@@ -132,6 +163,7 @@
           <li>Get 10 sponsors</li>
           <li>Detailed Analysis of instagram profile</li>
           <li>Ask for help from advanced AI CHATBOT</li>
+        
         </ul>
         <button class="btn btn-primary">Choose Plan</button>
       </div>
@@ -145,13 +177,13 @@
           <li>Directly message the sponosors</li>
           <li>Latest Version of our CHATBOT</li>
           <li>+All benefits of Silver PLan</li>
+          
         </ul>
         <button class="btn btn-primary">Choose Plan</button>
       </div>
     </div>
   </div>
 </div>
-
 
 
 
